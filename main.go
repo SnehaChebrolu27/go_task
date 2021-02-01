@@ -31,8 +31,7 @@ func main() {
 		source_dir_array := strings.Split(source_dir, "/")
 		CopyDir(source_dir, "bkp_dir/"+source_dir_array[len(source_dir_array)-1])
 	}
-	status := targz.Compress("bkp_dir", "backup_files.tar.gz")
-	fmt.Println(status)
+	targz.Compress("bkp_dir", "backup_files.tar.gz")
 	DeleteFolder("bkp_dir/")
 }
 
