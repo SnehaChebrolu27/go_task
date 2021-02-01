@@ -16,7 +16,7 @@ Later, it will copy the files into a temporary backup directory, which then will
 ###### 2: Copying folders to a temporary backup directory
 ###### 3: Making a tar.gz file of the backup directory
 
-#### Sub-tasks Remaining
+#### Sub-tasks Pending
 ###### 1: Taking input from command line
 ###### 2: MySQL connection and backup
 ###### 3: Integrating with S3 bucket 
