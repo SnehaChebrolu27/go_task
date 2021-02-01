@@ -1,15 +1,15 @@
 # Go Task
 
-A Go program for taking backup and pushing it to S3 bucket with configuration provided.
+A Go program to backup directories and databases and pushing it to S3 bucket with configuration provided.
 #### Running the Program
-In command prompt go to the related directory and run the command 
+In command prompt, go to the related directory and run the command 
 > `go run main.go`
 
 Use this command to download the library if the program doesn't execute. 
 > `go get -u github.com/walle/targz`
 
 When the program is run, it will read config.json and takes the input of the directories.
-After that it will copy the files into a temporary backup directory, which then will be compressed to tar.gz file.
+Later, it will copy the files into a temporary backup directory, which then will be compressed to tar.gz file.
 
 #### Sub-tasks completed
 ###### 1: Reading configuration from JSON file
