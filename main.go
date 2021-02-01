@@ -33,6 +33,7 @@ func main() {
 	}
 	targz.Compress("bkp_dir", "backup_files.tar.gz")
 	DeleteFolder("bkp_dir/")
+	fmt.Println("Successfully taken backup from config.json")
 }
 
 func DeleteFolder(dir string) (err error) {
