@@ -1,0 +1,8 @@
+{
+    "directories": [
+        "./test_dir_1",
+        "./test_dir_2",
+        "./test_dir_3"
+    ],
+    "retention_rate": "10 days"
+}
